@@ -1,0 +1,104 @@
+/*Author: Alessandra Dagdag
+Section: CS202
+Date: July 30, 2025
+*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*CSS styles for body and images*/
+body {background-color: #2395FF}
+
+img {max-width: 100%;
+    display: block;}
+
+/*CSS styles for header*/
+header {width: 25%;
+        float: left;
+    }
+
+/*CSS styles for navigation area*/
+nav {width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;}
+
+nav ul {list-style-type: none;
+        margin: 0;
+        text-align: left;}
+
+nav li {
+    display: inline-block;
+    font-size: 1em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+   }
+
+nav li a {display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none}
+
+/*CSS styles for the main section*/
+main {clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.25em;}
+
+
+#who-we-are, #what-we-offer, #our-mission {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#why-join {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#why-join dt {
+    font-weight: bold;
+}
+
+#why-join dd {
+    padding: 0.5% 1% 2% 0;
+}
+
+#contact-us {
+    text-align: center;
+}
+
+#contact-us a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.action {font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.map {border: 8px solid #000}
+
+footer p {font-size: 0.75em;
+        text-align: center;
+        color: #fff;
+        padding: 0.1em;
+}
+
+footer p a {color: #fff;
+}
+
